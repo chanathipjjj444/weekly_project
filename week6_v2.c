@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int i,j,n=7,a,l;
+    int i,j,n,a,l;
+    scanf("%d", &n);
     a = 2*n-1;
     l = a;
     for(i=1;i <=a;i++){
