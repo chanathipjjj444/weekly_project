@@ -50,9 +50,9 @@ int main(){
         b++;
         printf("\n");
     }
-    a++;
-    b--;
-    for(i=1; i <= n/2+1; i++){
+    a+= 2;
+    b-= 2;
+    for(i=2; i <= n/2+1; i++){
         for(j=1; j<=n; j++){
             if (j==a || j ==b)
             {
